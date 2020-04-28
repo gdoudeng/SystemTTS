@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SystemTTS.iml" filepath="$PROJECT_DIR$/SystemTTS.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SystemTTS.iml" filepath="$PROJECT_DIR$/SystemTTS.iml" group="SystemTTS" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="SystemTTS/app" />
     </modules>
   </component>
 </project>

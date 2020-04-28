@@ -46,9 +46,9 @@ public class SystemTTS {
     //textToSpeech的配置
     private void init(int i) {
         if (i == TextToSpeech.SUCCESS) {
-            int result = textToSpeech.setLanguage(Locale.ENGLISH);
+            int result = textToSpeech.setLanguage(Locale.CHINA);
             // 设置音调，值越大声音越尖（女生），值越小则变成男声,1.0是常规
-            textToSpeech.setPitch(2.0f);
+            textToSpeech.setPitch(1.0f);
             textToSpeech.setSpeechRate(3.0f);
             if (result == TextToSpeech.LANG_MISSING_DATA || result == TextToSpeech.LANG_NOT_SUPPORTED) {
                 //系统不支持中文播报
